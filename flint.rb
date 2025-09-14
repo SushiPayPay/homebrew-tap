@@ -9,13 +9,13 @@ class Flint < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/sushipaypay/flint/releases/download/v0.2.4/gt-macos-arm64"
-      sha256 "93619413604788a71954f39e9a47489105f3f92cef6ed69a47e676fa94e18996"
+      sha256 "471a557c36efefdd89128585bd59074d832a3ae924f2cc05ec59c49e1b0863fa"
       def install
         bin.install "gt-macos-arm64" => "gt"
       end
     else
       url "https://github.com/sushipaypay/flint/releases/download/v0.2.4/gt-macos-x64"
-      sha256 "80ec363f1408d4ff7d41260ed9f03af359caeebd740a2d49ecbf4578f5ec1820"
+      sha256 "c5a3d54c5ab716d7c73b970d1d9b72467622ab424386ec0c10ab096342a84e0f"
       def install
         bin.install "gt-macos-x64" => "gt"
       end
@@ -24,7 +24,7 @@ class Flint < Formula
 
   if OS.linux?
     url "https://github.com/sushipaypay/flint/releases/download/v0.2.4/gt-linux"
-    sha256 "248386fd5c2e6027a7781e5183bbb2e536bd92230a61a795036c06735c51f968"
+    sha256 "5242e8e390aa1c3901eb95a6c67eb0df93e164663280378d0fcb1905f6492a37"
     def install
       bin.install "gt-linux" => "gt"
     end  
